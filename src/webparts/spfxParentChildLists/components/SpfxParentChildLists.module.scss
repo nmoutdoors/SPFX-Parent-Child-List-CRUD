@@ -1,0 +1,25 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.spfxParentChildLists {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 20px;
+  }
+
+  .button {
+    margin: 10px 0;
+  }
+
+  .modal {
+    padding: 20px;
+    
+    h2 {
+      margin-top: 0;
+    }
+  }
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}

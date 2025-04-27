@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-parent-child-lists-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxParentChildLists/SpfxParentChildListsWebPart.js",
+          "manifest": "./src/webparts/spfxParentChildLists/SpfxParentChildListsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxParentChildListsWebPartStrings": "lib/webparts/spfxParentChildLists/loc/{locale}.js"
+  }
+}

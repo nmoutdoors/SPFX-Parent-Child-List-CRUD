@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "parent-child-list-crud",
+    "id": "a42522ba-4f59-4e3b-ba43-269fe8590f37",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "parent-child-list-crud description"
+      },
+      "longDescription": {
+        "default": "parent-child-list-crud description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "parent-child-list-crud Feature",
+        "description": "The feature that activates elements of the parent-child-list-crud solution.",
+        "id": "411f74d6-60ab-4686-87f4-1743be320562",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/parent-child-list-crud.sppkg"
+  }
+}
